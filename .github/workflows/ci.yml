@@ -48,7 +48,7 @@ jobs:
         with:
           php-version: '8.1'
           extensions: mbstring, bcmath, pdo_mysql, exif, pcntl, gd
-
+          coverage: pcov
       - name: Set up Node.js 20
         uses: actions/setup-node@v3
         with:
